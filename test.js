@@ -6,7 +6,23 @@ async function main() {
     custom.stepCount(3);
 
     custom.step(1, "Test package installation", async () => {
-        await custom.addpkg("pacman", "git", "pacman", []);
+        await custom.addpkg(
+            "apt",
+            "git",
+            "apt",
+            [
+                {
+                    source: "apt",
+                    managers: [
+                        {
+                            name: "apt",
+                            command: "sudo",
+                            args: ["apt", "install", "-y"]
+                        }
+                    ]
+                }
+            ]
+        );
     });
 
     custom.step(2, "Test command execution", async () => {
