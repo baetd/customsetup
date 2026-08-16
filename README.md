@@ -1,4 +1,5 @@
 # CustomSetup
+[![bun](https://github.com/baetd/customsetup/actions/workflows/bun.yml/badge.svg)](https://github.com/baetd/customsetup/actions/workflows/bun.yml)
 
 CustomSetup is a lightweight JavaScript setup and automation framework designed to make system and project setup tasks easier to organize and execute.
 
