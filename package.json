@@ -10,6 +10,7 @@
   },
   "version": "1.0",
   "scripts": {
-    "test": "bun test.js"
+    "test": "bun test.js",
+    "test-nodejs": "node test-node.js"
   }
 }
