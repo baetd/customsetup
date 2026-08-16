@@ -195,6 +195,17 @@ node test.js
 * npm
 * A supported package manager for package installation features
 
+## Roadmap — v1.1
+
+- [ ] Path Resolver
+- [ ] Improved error messages
+- [ ] Better step output
+- [ ] Setup state improvements
+- [ ] Basic environment variable support
+- [ ] More tests
+- [ ] Small API improvements
+- [ ] Bug fixes and stability improvements
+
 ## License
 
-This project is currently provided without a specified license.
+GPL v3.0
